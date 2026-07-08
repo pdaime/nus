@@ -1,0 +1,21 @@
+# ── Safety net: personal data never gets committed ──
+# If you use this copy yourself, everything the AI learns about you
+# lives in these paths; git will refuse to upload them.
+
+# your syllabi and course docs
+school/raw/*
+!school/raw/DROP-SYLLABI-HERE.md
+
+# generated semester files (deadlines, per-class pages)
+school/*.md
+
+# everything the AI learns about the user
+memory/
+notes/
+skills/
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
