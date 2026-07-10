@@ -1,0 +1,36 @@
+{
+  "name": "create-nus",
+  "version": "1.0.0",
+  "description": "Scaffold Nūs — an AI semester organizer built on Claude Code. Drop in your syllabi, get an AI that runs your entire semester.",
+  "bin": {
+    "create-nus": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "scripts": {
+    "prepack": "node scripts/build-template.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdaime/nus.git"
+  },
+  "homepage": "https://pdaime.github.io/nus/",
+  "bugs": "https://github.com/pdaime/nus/issues",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "student",
+    "semester",
+    "organizer",
+    "syllabus",
+    "productivity",
+    "ai"
+  ],
+  "author": "Pranav Desu",
+  "license": "MIT"
+}

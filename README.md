@@ -20,9 +20,15 @@
 ## Quick start (10 minutes)
 
 1. Install [Claude Code](https://claude.com/claude-code) (needs a Claude subscription).
-2. [Download Nūs](https://github.com/pdaime/nus/releases/latest) and unzip it. Open a terminal in the folder and run `claude`.
+2. In a terminal, run:
+
+   ```
+   npx create-nus
+   ```
+
+   (Prefer a zip? [Download Nūs](https://github.com/pdaime/nus/releases/latest) and unzip it instead.)
 3. Drop your syllabus PDFs into `school/raw/`.
-4. Type `/setup`. Watch it build your semester.
+4. Run `claude` in the folder and type `/setup`. Watch it build your semester.
 5. Tomorrow morning, type `/brief`.
 
 If it just built your semester in one shot, [leave a star](https://github.com/pdaime/nus) so the next student finds it too.

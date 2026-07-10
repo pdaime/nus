@@ -21,6 +21,11 @@ goals/goals.md
 # local Claude Code settings
 .claude/settings.local.json
 
+# npm build artifacts (template/ is generated from the repo root by prepack)
+template/
+node_modules/
+*.tgz
+
 # OS junk
 .DS_Store
 Thumbs.db
