@@ -4,6 +4,8 @@
 
 **Website:** [pdaime.github.io/nus](https://pdaime.github.io/nus/)
 
+> ⭐ **If Nūs is useful to you, [star this repo](https://github.com/pdaime/nus).** Stars are how other students find it.
+
 *Nūs* (from the Greek *noûs*, the mind) is an AI semester organizer built on Claude Code. Every "AI assistant" demo you've seen needs weeks of context before it's smart about you. Nūs gets there in 5 minutes, because as a student, your whole life is already written down in 3 to 5 PDFs. You just never had anything that read them.
 
 ## What it does
@@ -22,6 +24,8 @@
 3. Drop your syllabus PDFs into `school/raw/`.
 4. Type `/setup`. Watch it build your semester.
 5. Tomorrow morning, type `/brief`.
+
+If it just built your semester in one shot, [leave a star](https://github.com/pdaime/nus) so the next student finds it too.
 
 ## Privacy
 
